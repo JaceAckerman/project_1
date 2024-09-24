@@ -6,13 +6,14 @@ These strings are passed to phi-3 using the Ollama package's generate(). The res
 
 HOW TO RUN SCRIPT
 1) Download Miniconda
-  - Follow install instructions at https://docs.anaconda.com/miniconda/miniconda-install/
+   Follow install instructions at https://docs.anaconda.com/miniconda/miniconda-install/
   - Miniconda will allow you to create/run the program inside the necessary environment
 2)  Make Sure you Have Python Downloaded on your Computer
-    - Go to https://realpython.com/installing-python/ for a quick guide to install Pyhton. 
+    - Go to https://realpython.com/installing-python/ for a quick guide on how to install Pyhton. 
 3) Clone this git hub repository
-    - Navigate to
-4) Create Environment on your Computer
+    - Navigate to this repository.
+    - Under the <code> tab
+4) Create an Environment on your Computer
   - After installing Miniconda you should be able to run conda commands in your command prompt
-  - Open up CDM. On windows search 'CMD' in windows search tab. On MAC press command + spacebar and then type 'Terminal' to open Terminal.
-  - type the following command: 
+  - Open up CDM. On Windows search 'CMD' in the Windows search tab. On MAC press command + spacebar and then type 'Terminal' to open Terminal.
+  - type the following command: conda env create -f requirement.yaml
