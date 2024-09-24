@@ -14,11 +14,11 @@ HOW TO RUN PROGRAM
 2)  Make Sure you Have Python Downloaded On your Computer
     - Go to https://realpython.com/installing-python/ for a quick guide on how to install Pyhton.
       
-3) Clone or Install This Git Hub Repository 
+3) Clone or Install This Git Hub Repository
     - Navigate to this repository.
     - Click on the <Code> dropdown menu and you can either clone this repository using the link or download the zip file.
     - Make sure to put repository files in a place you can access in your file system.
-      
+   
 5) Navigate To the Folder Where You Stored The Repository's Files
    - Open up CDM. On Windows search 'CMD' in the Windows search bar. On MAC press command + spacebar and then type 'Terminal' to open Terminal.
    - Navigate to the directory where you stored the files in this repository. On Windows you can type this command: cd C:\FullPath\To\Your\Directory.
