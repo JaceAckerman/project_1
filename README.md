@@ -1,4 +1,5 @@
 Name: Jace Ackerman
+
 Project 1: Generate Prompt and Save Response From Phi-3
 Description: This Repository contains a Python script. The script takes three files that contain prompts. These three prompts are read and stored as strings.
 These strings are passed to phi-3 using the Ollama package's generate(). The responses are stored in three different text files, "responseFromPromptA.txt", 
@@ -15,9 +16,9 @@ HOW TO RUN PROGRAM
     - Go to https://realpython.com/installing-python/ for a quick guide on how to install Pyhton.
       
 3) Clone or Install This Git Hub Repository
-    - Navigate to this repository.
-    - Click on the <Code> dropdown menu and you can either clone this repository using the link or download the zip file.
-    - Make sure to put repository files in a place you can access in your file system.
+   -  Navigate to this repository.
+   -  Click on the <Code> dropdown menu and you can either clone this repository using the link or download the zip file.
+   -  Make sure to put repository files in a place you can access in your file system.
    
 5) Navigate To the Folder Where You Stored The Repository's Files
    - Open up CDM. On Windows search 'CMD' in the Windows search bar. On MAC press command + spacebar and then type 'Terminal' to open Terminal.
