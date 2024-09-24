@@ -1,6 +1,7 @@
 Name: Jace Ackerman
 
 Project 1: Generate Prompt and Save Response From Phi-3
+
 Description: This Repository contains a Python script. The script takes three files that contain prompts. These three prompts are read and stored as strings.
 These strings are passed to phi-3 using the Ollama package's generate(). The responses are stored in three different text files, "responseFromPromptA.txt", 
 "responseFromPromptB.txt", and "responseFromPromptC.txt." 
