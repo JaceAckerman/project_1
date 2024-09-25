@@ -4,7 +4,8 @@
 #File: promptInterface.py
 #Description: Prompts phi3 model by reading from 3 different text files with
 #   desired prompts. Then storing the responses in seperate text files as well.
-#   
+#   This program is meant to run in the project1325 environment that I created.
+#   I pipped installed ollama into this environment. This is how ollama will run locally.
 #
 #//
 
@@ -31,9 +32,10 @@ def writeReplyToFile(fileToWrite, reply):
     with open(fileToWrite, 'w') as file:
         file.write(reply)
 
-#arrays containing options A,B, and C that corresponds to the file name
-#if the user wants to use option A, they will simply type that option.
+#array containing text file names that have the prompts 
 prompts = ['promptA.txt', 'promptB.txt', 'promptC.txt']   
+#array containing the names of the text files that are going to be written to. The responses from
+#phi3 will be written to these files.
 replies = ['replyFromPromptA.txt', 'replyFromPromptB.txt','replyFromPromptC.txt']  
 
 #prompts phi3 with desired prompts and writes the replies in seperate text files
