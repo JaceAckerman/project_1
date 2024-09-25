@@ -8,9 +8,8 @@
 #
 #//
 
-import sys
-import subprocess
-import ollama
+
+import ollama #Able to import because ollama is installed in the environment this file is meant to run in
 
 #uses with statement to read and close the filename aswell as returns the contents as a string.
 def read(filename):
@@ -25,14 +24,14 @@ def read(filename):
 def askPrompt(filename):
     promptFromFile = read(filename)
     replyFromPhi3 = ollama.generate(model='phi3', prompt = promptFromFile)
-    return replyFromPhi3['response'] #this only returns the 'response' element from replyFromPhi3
+    return replyFromPhi3['response'] #this only returns the 'response' value from replyFromPhi3
  
 #writes 
 def writeReplyToFile(fileToWrite, reply):
     with open(fileToWrite, 'w') as file:
         file.write(reply)
 
-#dictionary containing options A,B, and C that corresponds to the file name
+#arrays containing options A,B, and C that corresponds to the file name
 #if the user wants to use option A, they will simply type that option.
 prompts = ['promptA.txt', 'promptB.txt', 'promptC.txt']   
 replies = ['replyFromPromptA.txt', 'replyFromPromptB.txt','replyFromPromptC.txt']  
@@ -40,8 +39,9 @@ replies = ['replyFromPromptA.txt', 'replyFromPromptB.txt','replyFromPromptC.txt'
 #prompts phi3 with desired prompts and writes the replies in seperate text files
 #Does this for all 3 prompts
 def askAndWrite():
+    print("Asking Phi3 some questions...")
     for i in range(len(prompts)):
         writeReplyToFile(replies[i],askPrompt(prompts[i]))
-        
+    print("Phi3 has generated some answers!")
         
 askAndWrite()      
