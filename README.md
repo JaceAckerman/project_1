@@ -28,7 +28,7 @@ HOW TO RUN PROGRAM
 6) Create an Environment on your Computer
    - After installing Miniconda you should be able to run conda commands in your command prompt or terminal
    - Make sure when you type the following conda command you are inside the folder with the repository files you just downloaded
-   - Type the following command: conda env create -f requirement.yaml
+   - Type the following command: conda env create -f requirements.yaml
    - Then type: conda clean -p
      
 7) Activate Conda Environment 
