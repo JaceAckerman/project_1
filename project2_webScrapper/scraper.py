@@ -14,7 +14,7 @@ class Scraper:
     def __init__(self):
         self.url = "Not Assigned Yet"
      
-    #Retruns the value of the respsone from the get method from the requests library if valid
+    #Returns the value of the resposne from the get method from the requests library if valid
     #otherwise it raises an exception    
     def scrape(self):
         try:
