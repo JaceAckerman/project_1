@@ -9,7 +9,7 @@ from scrappingManager import ScrapingManager
 
 def main():
     #instatiating objects
-    series5 = ScrapingManager("appleWatchSeries5URLS.txt", "series5OutPut.txt")
+    series5 = ScrapingManager("appleWatchSeries5URLS.txt", "series5Reviews.txt")
     series6 = ScrapingManager("appleWatchSeries6URLS.txt", "series6Reviews.txt")
     series7 = ScrapingManager("appleWatchSeries7URLS.txt", "series7Reviews.txt")
     series8 = ScrapingManager("appleWatchSeries8URLS.txt", "series8Reviews.txt")
