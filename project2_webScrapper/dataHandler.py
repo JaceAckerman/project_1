@@ -2,11 +2,11 @@
 # Date: 10/24/24
 # File: dataHandler.py
 # Description: This file creates the DataHandler class. DataHandler is responsible for taking the raw 
-# strings of reviews from the websites, cleaning the strings, and then writing the strings to a textfile.
+# strings of reviews from the websites, cleaning the strings, and then writing the strings to a text file.
 # DataHandler utilizes the emoji package to remove any emoji's in the sting. DataHandler also utilizes the 
 # replace() on the string to remove a specific object placeholder that was located in some of the removes. 
-# The emojis and object place holders have numerical representations that cannot be processed, thus they have 
-# get removed.
+# The emojis and object placeholders have numerical representations that cannot be processed, thus they have 
+# to get removed.
 
 import emoji
 
@@ -15,8 +15,8 @@ class DataHandler:
     def __init__(self, fileToWrite):
         self.fileToWrite = fileToWrite
     
-    #removes any emojis from review because emojis can't be processed when writing to text file
-    #Also removes the character \ufffc which is an object place holder, it also cannot be processed
+    #removes any emojis from review because emojis can't be processed when writing to a text file
+    #Also removes the character \ufffc which is an object placeholder, it also cannot be processed
     def cleanString(self,string):
         string = emoji.replace_emoji(string, replace='')
         string = string.replace('\ufffc', '')
