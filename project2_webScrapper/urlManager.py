@@ -3,7 +3,7 @@
 # File: urlManager.py
 # Description: This file contains the UrlManager class. This class gets the urls from a text file that contains
 # urls. The urls are then put into an array. The file that contains the urls for a specific version of a product
-# is passed to a instance variable. Then UrlManager has a getURLS() that reads from the passed file and
+# is passed to an instance variable. Then UrlManager has a getURLS() that reads from the passed file and
 # because there is one URL per line, the method reads each line and stores the line into the urlList array.
 # This class allows for the URLS to be extracted from a text file.
 
