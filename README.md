@@ -1,6 +1,6 @@
 Name: Jace Ackerman
 
-Project 2: Scrape Reviews From a Website and Put Reviews in a Text File
+Project 3: Perform a sentiment analysis of product reviews for different versions of Apple Watches.
 
 Description: This branch contains the file project2_webScrapper. Inside this file is software that can scrape a website, parse the data that was scrapped, and then put that data into an individual text file. This software does this for Apple Watch Series 5-9. It pulls the reviews for these products from eBay. All of this is done automatically when the software is ran. To run the software yourself, follow the steps below.
 
