@@ -1,0 +1,6 @@
+Classify the following review as either 'positive', 'negative', or 'neutral' in one word: I love this product
+Classify the following review as either 'positive', 'negative', or 'neutral' in one word: I hate this product
+Classify the following review as either 'positive', 'negative', or 'neutral' in one word: This is not good
+Classify the following review as either 'positive', 'negative', or 'neutral' in one word: I do not hate it, but I do not love it either. I am pretty neutral about the product
+Classify the following review as either 'positive', 'negative', or 'neutral' in one word: I think it is good
+Classify the following review as either 'positive', 'negative', or 'neutral' in one word: This is not worth it
