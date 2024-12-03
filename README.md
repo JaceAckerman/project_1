@@ -1,4 +1,5 @@
-Name: Jace Ackerman
+Author: Jace Ackerman
+=
 
 Project 3: Perform a sentiment analysis of product reviews for different versions of Apple Watches.
 ===================================================================================================
