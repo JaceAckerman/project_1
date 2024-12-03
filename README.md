@@ -23,7 +23,7 @@ HOW TO RUN PROGRAM (project 3)
    - Navigate to this repository branch
    - Click on the code dropdown menu and you can either clone this repository branch using the link or download the zip file.
    - DO NOT DOWNLOAD FROM THE MAIN BRANCH, to run this software you must only use the files in this branch. Any other branch will be for different software.
-   - Only download the Project3_AI_Reviewer folder, the project2_webScrapper folder only contains the web scraper.
+   - When you download this repository, only navigate to Project3_AI_Reviewer folder. The webScraping folder is only project 2 code
    - Make sure to put repository files in a place you can access in your file system.
      
 5) Navigate To the Folder Where You Stored The Repository's Files From THIS Branch 
