@@ -1,6 +1,7 @@
 Name: Jace Ackerman
 
 Project 3: Perform a sentiment analysis of product reviews for different versions of Apple Watches.
+===================================================================================================
 
 Description: This branch contains all of the files that are necessary for Project 3. It has new code as well as code from project 1 and project 2. In Project 2 I designed
 a web scraper that scraped reviews of Apple Watch versions from eBay. A big requirement for this project was to rewrite our code to be modular and follow S or D principles. My code in Project 2 was already modularized and already followed the single responsibility principle. My code in Project 2 has a Scraper, Parser, DataHandler, UrlHandler, and ScrapingManager classes. Each class has one responsibility. Even the ScrapingManager just has the responsibility of integrating all the classes. The Scraper class just gets the HTML document. The Parser class filters through this document for the desired data. The DataHandler class just saves the data gathered from the parser class. The UrlManager class only gets the URLs to the review pages from a file. Each class serves one purpose thus this code satisfies the S principle in SOLID.
